@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Karla';
+    src: url(./fonts/Karla-VariableFont_wght.ttf) format('truetype');
+    src: url(./fonts/Karla-Italic-VariableFont_wght.ttf) format('truetype');
+    src: url(./fonts/static/Karla-Bold.ttf) format('truetype');
+    src: url(./fonts/static/Karla-Regular.ttf) format('truetype');
+  }
+}
+
+:root {
+  font-family: 'Karla', sans-serif;
+  background: hsl(148, 38%, 91%);
+}
